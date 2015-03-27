@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
+gem 'bcrypt-ruby'
 
 gem 'rails', '4.2.0'
 gem 'activejob', '4.2.0'
@@ -8,6 +9,7 @@ gem 'tzinfo-data'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
+  gem 'minitest'
   gem 'rspec-rails', '2.13.1'
   # gem 'guard-rspec'#, '2.5.0'
   # gem 'spork-rails', '4.0.0'
